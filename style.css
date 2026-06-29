@@ -148,3 +148,15 @@ footer {
 .copyright p{
     color: #777;
 }
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
